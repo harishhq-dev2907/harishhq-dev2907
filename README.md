@@ -1,27 +1,50 @@
-````md
-🌸 **About Me**
+````markdown
+<h1 align="center">Hi there, I'm Aynex Dev 👋</h1>
 
-```yaml
-Name: Aynex Dev
-Role: Aspiring Software Developer
-Currently Learning: Java ☕
-Next Adventure: C# 🚀
-Dream: Create amazing games 🎮
-````
-
-✨ **A little about me**
-
-* 🌱 Currently growing my Java skills one project at a time.
-* ☕ Exploring Object-Oriented Programming and Data Structures.
-* 🚀 Next stop: C# and advanced programming.
-* 🎮 Passionate about Game Development with Unity.
-* 💡 Always curious to learn something new.
-* 🤝 Open to collaborating on beginner-friendly Java projects.
-* 📚 Learning, building, and improving every day.
+<p align="center">
+  ☕ Learning Java • 🚀 Future C# Developer • 🎮 Aspiring Game Developer
+</p>
 
 ---
 
-> *"Small steps every day lead to big achievements tomorrow."* 🌸
+## 🌱 About Me
 
-```
+```yaml
+Name      : Aynex Dev
+Currently : Learning Java
+Next Goal : C#
+Dream      : Build games with Unity
+Focus      : Clean Code • OOP • Problem Solving
+````
+
+### 🌿 Journey
+
+* ☕ **Currently Learning:** Java, OOP & Data Structures
+* 🚀 **Next Stop:** C# and .NET
+* 🎮 **Long-Term Goal:** Unity Game Development
+* 💡 **Interested In:** Software Development & Game Development
+* 🤝 **Open To:** Beginner-friendly collaborations and open source
+* 📚 **Always Learning:** One project at a time
+
+---
+
+### 🎯 2026 Goals
+
+* ✅ Master Java Fundamentals
+* 🔄 Build Java Projects
+* ⏳ Learn C#
+* ⏳ Start Unity
+* ⏳ Contribute to Open Source
+
+---
+
+### 💭 Favorite Quote
+
+> *"Small steps every day lead to big achievements."*
+
+---
+
+<p align="center">
+✨ Thanks for visiting my profile! ✨
+</p>
 ```
