@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi, I'm Aynex Dev 👋
 
-<!--
-**harishhq-dev2907/harishhq-dev2907** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+☕ Learning Java
 
-Here are some ideas to get you started:
+🚀 Next stop: C#
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🎮 Interested in Game Development
+
+📚 Building my skills one project at a time.
+
+---
+
+## 🌱 Currently Learning
+- Java
+- Object-Oriented Programming
+- Data Structures & Algorithms
+
+## 🎯 Goals
+- Master Java
+- Learn C#
+- Build Games with Unity
+- Contribute to Open Source
+
+Thanks for visiting my profile! 🚀
