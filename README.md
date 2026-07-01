@@ -1,4 +1,4 @@
-<h1 align="center">Hi there, I'm Harish Dev 👋</h1>
+<h1 align="center">Hi there, I'm Harish 👋</h1>
 
 <p align="center">
   ☕ Learning Java • 🚀 Future C# Developer • 🎮 Aspiring Game Developer
