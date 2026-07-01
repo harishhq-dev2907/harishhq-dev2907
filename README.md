@@ -14,33 +14,62 @@
 
 ```yaml
 Name: Aynex Dev
-Learning: Java
+Role: Aspiring Software Developer
+Currently Learning: Java
 Next Goal: C#
 Interest: Game Development
-Future: Developer
-Focus: Clean Code • OOP • Problem Solving
+Future Tech: Unity
+Focus:
+  - Object-Oriented Programming
+  - Problem Solving
+  - Clean Code
+  - Continuous Learning
 ```
 
 ## 🚀 Current Journey
 
-- ☕ Learning Java and strengthening programming fundamentals.
-- 📚 Exploring Object-Oriented Programming.
-- 🚀 Planning to learn C# after Java.
-- 🎮 Dreaming of building games with Unity.
-- 💡 Always excited to learn new technologies and improve every day.
+* ☕ Learning Java from the ground up.
+* 📚 Building a strong foundation in Object-Oriented Programming.
+* 🧩 Practicing problem-solving and improving coding skills.
+* 🚀 Planning to learn C# after mastering Java.
+* 🎮 Looking forward to creating games with Unity.
+* 🌱 Growing one step at a time through consistent learning.
 
-## 🎯 Goals
+## 🛠️ Tech Stack
 
-- ✅ Master Java Fundamentals
-- 🔄 Build Java Projects
-- ⏳ Learn C#
-- ⏳ Explore .NET
-- ⏳ Create Games with Unity
-- ⏳ Contribute to Open Source
+### Languages
+
+* ☕ Java *(Learning)*
+* 🚀 C# *(Planned)*
+
+### Tools
+
+* Git
+* GitHub
+* Visual Studio Code
+* IntelliJ IDEA
+
+## 🎯 Roadmap
+
+* ✅ Learn Java Fundamentals
+* 🔄 Practice Object-Oriented Programming
+* ⏳ Build Java Projects
+* ⏳ Learn Data Structures & Algorithms
+* ⏳ Learn C#
+* ⏳ Explore .NET
+* ⏳ Build Games with Unity
+* ⏳ Contribute to Open Source
+
+## 📊 GitHub Goals
+
+* 📌 Share my learning journey.
+* 📌 Build useful Java projects.
+* 📌 Improve through consistency.
+* 📌 Grow into a skilled software and game developer.
 
 ## 🤝 Let's Connect
 
-I'm always open to learning, collaborating, and connecting with fellow developers.
+I'm always open to learning, sharing knowledge, and connecting with fellow developers.
 
 ---
 
@@ -48,7 +77,7 @@ I'm always open to learning, collaborating, and connecting with fellow developer
 
 ### 💭 Favorite Quote
 
-> **"Small progress each day leads to big achievements."**
+> **"Consistency beats perfection. Every line of code is a step forward."**
 
 ⭐ Thanks for visiting my profile!
 
