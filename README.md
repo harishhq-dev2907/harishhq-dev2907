@@ -17,7 +17,7 @@ Name: Aynex Dev
 Learning: Java
 Next Goal: C#
 Interest: Game Development
-Future: Unity Development
+Future: Developer
 Focus: Clean Code • OOP • Problem Solving
 ```
 
