@@ -1,24 +1,27 @@
-# Hi, I'm Aynex Dev 👋
+````md
+🌸 **About Me**
 
-☕ Learning Java
+```yaml
+Name: Aynex Dev
+Role: Aspiring Software Developer
+Currently Learning: Java ☕
+Next Adventure: C# 🚀
+Dream: Create amazing games 🎮
+````
 
-🚀 Next stop: C#
+✨ **A little about me**
 
-🎮 Interested in Game Development
-
-📚 Building my skills one project at a time.
+* 🌱 Currently growing my Java skills one project at a time.
+* ☕ Exploring Object-Oriented Programming and Data Structures.
+* 🚀 Next stop: C# and advanced programming.
+* 🎮 Passionate about Game Development with Unity.
+* 💡 Always curious to learn something new.
+* 🤝 Open to collaborating on beginner-friendly Java projects.
+* 📚 Learning, building, and improving every day.
 
 ---
 
-## 🌱 Currently Learning
-- Java
-- Object-Oriented Programming
-- Data Structures & Algorithms
+> *"Small steps every day lead to big achievements tomorrow."* 🌸
 
-## 🎯 Goals
-- Master Java
-- Learn C#
-- Build Games with Unity
-- Contribute to Open Source
-
-Thanks for visiting my profile! 🚀
+```
+```
