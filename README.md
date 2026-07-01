@@ -24,7 +24,7 @@ Focus: Clean Code • OOP • Problem Solving
 ## 🚀 Current Journey
 
 - ☕ Learning Java and strengthening programming fundamentals.
-- 📚 Exploring Object-Oriented Programming and Data Structures.
+- 📚 Exploring Object-Oriented Programming.
 - 🚀 Planning to learn C# after Java.
 - 🎮 Dreaming of building games with Unity.
 - 💡 Always excited to learn new technologies and improve every day.
