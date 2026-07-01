@@ -54,7 +54,7 @@ Focus:
 * ✅ Learn Java Fundamentals
 * 🔄 Practice Object-Oriented Programming
 * ⏳ Build Java Projects
-* ⏳ Learn Data Structures & Algorithms
+* ⏳ Learn Backend
 * ⏳ Learn C#
 * ⏳ Explore .NET
 * ⏳ Build Games with Unity
