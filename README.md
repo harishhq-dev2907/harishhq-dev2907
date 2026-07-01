@@ -1,4 +1,4 @@
-<h1 align="center">Hi there, I'm Aynex Dev 👋</h1>
+<h1 align="center">Hi there, I'm Harish Dev 👋</h1>
 
 <p align="center">
   ☕ Learning Java • 🚀 Future C# Developer • 🎮 Aspiring Game Developer
@@ -13,7 +13,7 @@
 ## 🌱 About Me
 
 ```yaml
-Name: Aynex Dev
+Name: Harish
 Role: Aspiring Software Developer
 Currently Learning: Java
 Next Goal: C#
