@@ -54,22 +54,37 @@ Focus:
 * ✅ Learn Java Fundamentals
 * 🔄 Practice Object-Oriented Programming
 * ⏳ Build Java Projects
-* ⏳ Learn Backend
+* ⏳ Learn Backend Development
 * ⏳ Learn C#
 * ⏳ Explore .NET
 * ⏳ Build Games with Unity
 * ⏳ Contribute to Open Source
 
+## 📦 What You'll Find Here
+
+As I continue learning and growing, I'll be sharing:
+
+* ☕ Java projects and practice applications
+* 📦 Reusable Java packages and libraries
+* 🧩 Code snippets and developer resources
+* 🚀 Future C# and .NET projects
+* 🎮 Unity game development experiments
+* 📚 Open source contributions and learning resources
+
 ## 📊 GitHub Goals
 
 * 📌 Share my learning journey.
 * 📌 Build useful Java projects.
+* 📌 Create reusable libraries and developer tools.
+* 📌 Contribute to the open source community.
 * 📌 Improve through consistency.
 * 📌 Grow into a skilled software and game developer.
 
 ## 🤝 Let's Connect
 
 I'm always open to learning, sharing knowledge, and connecting with fellow developers.
+
+Feel free to explore my repositories, use my projects, and share feedback or suggestions.
 
 ---
 
