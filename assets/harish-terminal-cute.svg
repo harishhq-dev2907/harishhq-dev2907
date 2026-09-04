@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">HarishInUtopia animated developer profile</title>
+  <desc id="desc">A cute dark terminal-style profile card for Harish, featuring Java, C Sharp, Unity and a developer roadmap.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b18"/>
+      <stop offset=".48" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#160e27"/>
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9">
+        <animate attributeName="stop-color" values="#67e8f9;#93c5fd;#c4b5fd;#67e8f9" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#c4b5fd">
+        <animate attributeName="stop-color" values="#c4b5fd;#67e8f9;#93c5fd;#c4b5fd" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0abfc"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#67e8f9" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#c4b5fd" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="scanlines" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="4" fill="#fff" opacity=".018"/>
+    </pattern>
+
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <clipPath id="nameReveal">
+      <rect x="110" y="235" width="0" height="95">
+        <animate attributeName="width" from="0" to="760" dur="2.4s" begin=".6s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="missionReveal">
+      <rect x="110" y="410" width="0" height="30">
+        <animate attributeName="width" from="0" to="780" dur="2s" begin="2.1s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="980" rx="34" fill="url(#bg)"/>
+  <circle cx="1450" cy="90" r="280" fill="#67e8f9" opacity=".07" filter="url(#soft)"/>
+  <circle cx="120" cy="850" r="300" fill="#c084fc" opacity=".06" filter="url(#soft)"/>
+
+  <!-- Outer animated frame -->
+  <rect x="18" y="18" width="1564" height="944" rx="30" fill="none" stroke="url(#neon)" stroke-width="2">
+    <animate attributeName="opacity" values=".45;1;.45" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Main terminal -->
+  <rect x="48" y="48" width="1504" height="884" rx="24" fill="#070b14" stroke="#253149" stroke-width="2"/>
+  <rect x="48" y="48" width="1504" height="884" rx="24" fill="url(#scanlines)" pointer-events="none"/>
+
+  <!-- Header -->
+  <circle cx="88" cy="88" r="8" fill="#ff6b6b"/>
+  <circle cx="116" cy="88" r="8" fill="#ffd166"/>
+  <circle cx="144" cy="88" r="8" fill="#63e66d">
+    <animate attributeName="opacity" values="1;.35;1" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="182" y="95" fill="#71809b" font-family="monospace" font-size="19">harish@dev:~$ profile.sh</text>
+
+  <circle cx="1470" cy="88" r="6" fill="#67e8f9" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;.25;1" dur="1.1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1390" y="95" fill="#67e8f9" font-family="monospace" font-size="16">● ONLINE</text>
+
+  <!-- Hero -->
+  <text x="110" y="155" fill="#94a3b8" font-family="monospace" font-size="21">$ whoami</text>
+
+  <g clip-path="url(#nameReveal)">
+    <text x="110" y="310" fill="url(#neon)" font-family="Arial, Helvetica, sans-serif"
+          font-size="92" font-weight="900" letter-spacing="11" filter="url(#glow)">HARISH</text>
+  </g>
+
+  <text x="114" y="360" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif"
+        font-size="29" font-weight="800" letter-spacing="4">ASPIRING SOFTWARE DEVELOPER</text>
+
+  <text x="114" y="402" fill="#a8b3c7" font-family="monospace" font-size="20">
+    ☕ Java  ·  C#  ·  .NET  ·  Unity  ·  Game Development
+  </text>
+
+  <g clip-path="url(#missionReveal)">
+    <text x="114" y="435" fill="#67e8f9" font-family="monospace" font-size="19">&gt; mission: learn • build • experiment • improve</text>
+  </g>
+
+  <!-- Cute mascot / status panel -->
+  <rect x="1040" y="135" width="410" height="320" rx="20" fill="#0b1220" stroke="#263550"/>
+  <text x="1070" y="170" fill="#c4b5fd" font-family="monospace" font-size="17">╭─ SYSTEM_INFO ─╮</text>
+
+  <!-- Little robot -->
+  <g transform="translate(1075 200)">
+    <rect x="0" y="35" width="90" height="70" rx="18" fill="#111b2d" stroke="url(#neon)" stroke-width="2"/>
+    <rect x="14" y="52" width="62" height="38" rx="12" fill="#07101d"/>
+    <circle cx="32" cy="70" r="6" fill="#67e8f9">
+      <animate attributeName="opacity" values="1;.25;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="58" cy="70" r="6" fill="#c4b5fd">
+      <animate attributeName="opacity" values=".25;1;.25" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M45 35V18" stroke="#67e8f9" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="45" cy="12" r="6" fill="#67e8f9" filter="url(#glow)"/>
+    <path d="M22 105v12M68 105v12M-4 65h4M90 65h5" stroke="#7c8aa5" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="1205" y="220" fill="#64748b" font-family="monospace" font-size="16">USER</text>
+  <text x="1300" y="220" fill="#f8fafc" font-family="monospace" font-size="16">HarishInUtopia</text>
+
+  <text x="1205" y="255" fill="#64748b" font-family="monospace" font-size="16">LEARNING</text>
+  <text x="1300" y="255" fill="#67e8f9" font-family="monospace" font-size="16">Java</text>
+
+  <text x="1205" y="290" fill="#64748b" font-family="monospace" font-size="16">NEXT</text>
+  <text x="1300" y="290" fill="#c4b5fd" font-family="monospace" font-size="16">C# / .NET</text>
+
+  <text x="1205" y="325" fill="#64748b" font-family="monospace" font-size="16">ENGINE</text>
+  <text x="1300" y="325" fill="#f8fafc" font-family="monospace" font-size="16">Unity</text>
+
+  <text x="1205" y="360" fill="#64748b" font-family="monospace" font-size="16">STATUS</text>
+  <text x="1300" y="360" fill="#63e66d" font-family="monospace" font-size="16">BUILDING</text>
+
+  <text x="1205" y="395" fill="#64748b" font-family="monospace" font-size="16">MOOD</text>
+  <text x="1300" y="395" fill="#f0abfc" font-family="monospace" font-size="16">CURIOUS ✦</text>
+
+  <text x="1070" y="430" fill="#52617a" font-family="monospace" font-size="14">╰────────────────────────╯</text>
+
+  <!-- Divider -->
+  <line x1="105" y1="495" x2="1495" y2="495" stroke="#1f2b42"/>
+  <circle cx="800" cy="495" r="4" fill="#67e8f9" filter="url(#glow)">
+    <animate attributeName="cx" values="110;1490;110" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Journey -->
+  <text x="110" y="545" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800">CURRENT JOURNEY</text>
+  <text x="110" y="575" fill="#64748b" font-family="monospace" font-size="16">$ cat roadmap.txt</text>
+
+  <!-- Roadmap cards -->
+  <g font-family="monospace">
+    <rect x="110" y="605" width="300" height="120" rx="16" fill="#0c1525" stroke="#29405a"/>
+    <text x="135" y="638" fill="#67e8f9" font-size="17">01 · NOW</text>
+    <text x="135" y="670" fill="#f8fafc" font-size="19">JAVA</text>
+    <text x="135" y="698" fill="#7f8da5" font-size="14">OOP • practice • projects</text>
+
+    <rect x="455" y="605" width="300" height="120" rx="16" fill="#0c1525" stroke="#29405a"/>
+    <text x="480" y="638" fill="#93c5fd" font-size="17">02 · NEXT</text>
+    <text x="480" y="670" fill="#f8fafc" font-size="19">C# / .NET</text>
+    <text x="480" y="698" fill="#7f8da5" font-size="14">backend • clean code</text>
+
+    <rect x="800" y="605" width="300" height="120" rx="16" fill="#0c1525" stroke="#29405a"/>
+    <text x="825" y="638" fill="#c4b5fd" font-size="17">03 · CREATE</text>
+    <text x="825" y="670" fill="#f8fafc" font-size="19">UNITY</text>
+    <text x="825" y="698" fill="#7f8da5" font-size="14">games • systems • fun</text>
+
+    <rect x="1145" y="605" width="300" height="120" rx="16" fill="#0c1525" stroke="#29405a"/>
+    <text x="1170" y="638" fill="#f0abfc" font-size="17">04 · ALWAYS</text>
+    <text x="1170" y="670" fill="#f8fafc" font-size="19">IMPROVE</text>
+    <text x="1170" y="698" fill="#7f8da5" font-size="14">build • debug • repeat</text>
+  </g>
+
+  <!-- Progress -->
+  <text x="110" y="770" fill="#64748b" font-family="monospace" font-size="16">progress --live</text>
+  <rect x="110" y="792" width="1340" height="10" rx="5" fill="#182238"/>
+  <rect x="110" y="792" width="420" height="10" rx="5" fill="url(#neon)" filter="url(#glow)">
+    <animate attributeName="width" values="360;560;420" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="110" y="835" fill="#7f8da5" font-family="monospace" font-size="15">
+    [ learning ] [ building ] [ experimenting ] [ becoming ]
+  </text>
+
+  <!-- Footer command -->
+  <text x="110" y="885" fill="#52617a" font-family="monospace" font-size="16">harish@dev:~$ echo "see you in the next commit ✦"</text>
+  <rect x="650" y="870" width="10" height="20" rx="2" fill="#67e8f9">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Moving scan beam -->
+  <rect x="55" y="50" width="1500" height="3" fill="url(#beam)" opacity=".5">
+    <animate attributeName="y" values="55;925;55" dur="8s" repeatCount="indefinite"/>
+  </rect>
+</svg>
