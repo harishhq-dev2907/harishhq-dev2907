@@ -2,7 +2,7 @@
 
 <img
   src="./assets/harish-terminal-cute.svg"
-  alt="HarishInUtopia Developer Profile"
+  alt="harishhq-dev2907 Developer Profile"
   width="100%"
 />
 
@@ -22,7 +22,7 @@
 
 ```yaml
 name: Harish
-username: HarishInUtopia
+username: harishhq-dev2907
 
 role: Aspiring Software Developer
 
